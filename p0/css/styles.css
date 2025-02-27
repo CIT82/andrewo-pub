@@ -11328,3 +11328,20 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+body:not(.main-page) #mainNav {
+  background-color: rgba(0, 0, 0, 0.8) !important; /* Dark background */
+}
+
+body:not(.main-page) #mainNav .nav-link {
+  color: white !important; /* Makes sure links are visible */
+}
+
+body:not(.main-page) #mainNav .nav-link:hover {
+  color: orange !important; /* Matches your hover effect */
+}
+
+/* Different masthead background ONLY for index.html */
+body.index-page header.masthead {
+  background-image: url("../assets/header-bg.jpg"); /* Change to your index background */
+}
