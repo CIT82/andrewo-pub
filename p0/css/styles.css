@@ -11345,3 +11345,7 @@ body:not(.main-page) #mainNav .nav-link:hover {
 body.index-page header.masthead {
   background-image: url("../assets/header-bg.jpg"); /* Change to your index background */
 }
+
+main {
+  padding: 150px;
+}
