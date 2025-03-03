@@ -4047,6 +4047,7 @@ textarea.form-control-lg {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    background-color: transparent !important;
   }
   .navbar-expand-sm .navbar-nav-scroll {
     overflow: visible;
@@ -11346,6 +11347,84 @@ body.index-page header.masthead {
   background-image: url("../assets/header-bg.jpg"); /* Change to your index background */
 }
 
-main {
-  padding: 150px;
+/* For very small screens (e.g., mobile phones) */
+@media (max-width: 576px) {
+  body {
+    padding-top: 80px; /* Adjust this for extra small devices */
+    padding-bottom: 100px;
+  }
+}
+
+/* For screens smaller than 992px (e.g., tablets, mobile) */
+@media (max-width: 991px) {
+  body {
+    padding-top: 50px; /* Adjust this value as needed */
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 50px; /* More space for larger screens */
+    padding-bottom: 100px;
+  }
+}
+
+.newpages {
+  padding-top: 75px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns on large screens */
+  gap: 20px; /* space between cards */
+  padding: 20px;
+}
+
+.card {
+  width: 100%; /* Ensure card takes full column width */
+  max-width: 20rem; /* Default max width for large screens */
+}
+
+.card h3, .card h5, .card h6, .card p {
+  font-size: 1rem; /* Default font size */
+}
+
+@media (max-width: 992px) {
+  .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 equal columns for medium screens */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  .card {
+      max-width: 18rem; /* Slightly smaller cards for medium screens */
+  }
+  .card h3 {
+      font-size: 0.9rem; /* Slightly smaller heading */
+  }
+  .card h5 {
+      font-size: 0.85rem; /* Slightly smaller card title */
+  }
+  .card p {
+      font-size: 0.9rem; /* Slightly smaller paragraph text */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: repeat(1, 1fr); /* Stack the cards in a single column for smaller screens */
+  }
+  .card {
+      max-width: 16rem; /* Smaller cards for small screens */
+  }
+  .card h3 {
+      font-size: 0.85rem; /* Smaller heading */
+  }
+  .card h5 {
+      font-size: 0.8rem; /* Smaller card title */
+  }
+  .card p {
+      font-size: 0.85rem; /* Smaller paragraph text */
+  }
 }
