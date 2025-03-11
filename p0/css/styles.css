@@ -11428,3 +11428,14 @@ body.index-page header.masthead {
       font-size: 0.85rem; /* Smaller paragraph text */
   }
 }
+.hero-image {
+  padding-top: 0; /* Remove any padding around the image */
+  padding-bottom: 5%;
+  margin: 0;  /* Remove margin if necessary */
+}
+
+.hero-image img {
+  display: block; /* Prevents any extra space below the image */
+  width: 100%;    /* Ensures the image fills the container */
+  height: auto;   /* Keeps the aspect ratio intact */
+}

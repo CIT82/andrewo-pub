@@ -1,354 +1,653 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Nutrition - Life Balance</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/nutrition.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/tree-svgrepo-com.svg" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav nav-pills text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="fitness.html">Fitness</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Nutrition</a></li>
-                        <li class="nav-item"><a class="nav-link" href="leisure.html">Leisure</a></li>
-                        <li class="nav-item"><a class="nav-link" href="relationships.html">Relationships</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <!-- <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">The Balancing of Life</div>
-                <div class="masthead-heading text-uppercase">Strength in Every Step</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Explore More</a>
-            </div>
-        </header> -->
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Nutrition</h2>
-                    <h3 class="section-subheading text-muted">Feed Your Body, Feed Your Soul</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/hydration.jpeg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Hydration</div>
-                                <div class="portfolio-caption-subheading text-muted">Optimize</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/macronutrients.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Macronutrients</div>
-                                <div class="portfolio-caption-subheading text-muted">Fuel</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/micronutrients.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Micronutrients</div>
-                                <div class="portfolio-caption-subheading text-muted">Support</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/wholefoods.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Whole Foods</div>
-                                <div class="portfolio-caption-subheading text-muted">Natural</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/fasting.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Fasting</div>
-                                <div class="portfolio-caption-subheading text-muted">Timing</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/mealplanning.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Meal Planning</div>
-                                <div class="portfolio-caption-subheading text-muted">Structure</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 text-lg-start">Copyright &copy; Andrew Orta 2025</div>
-                    <div class="col-lg-3 text-lg-start">Distributed By <a href="https://themewagon.com/">Themewagon</a></div>
-                    <div class="col-lg-3 my-3 my-lg-0">
-                        <a href="sitemap.html">Sitemap</a>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                    <div class="col-lg-3 text-lg-end">
-                        <!-- <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Hydration</h2>
-                                    <p class="item-intro text-muted">Proper hydration supports nutrient absorption, enhances digestion, and helps maintain energy levels, maximizing the benefits of a balanced diet.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/hydration.jpeg" alt="..." />
-                                    <p>Staying properly hydrated is essential for overall health and wellness. While the general recommendation is to drink about 8 cups (64 ounces) of water a day, individual hydration needs can vary. Men typically require about 3.7 liters (125 ounces) of total water daily, while women need around 2.7 liters (91 ounces). This includes all beverages and food. Factors like physical activity, climate, and overall health can influence how much water you need. Listening to your body—such as staying mindful of thirst and urine color—can help you stay hydrated and optimize your nutrition.</p>
-                                    <a href="hydration.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Hydration Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Macronutrients</h2>
-                                    <p class="item-intro text-muted">Fueling Your Body with the Right Macronutrients</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/macronutrients.jpg" alt="..." />
-                                    <p>Macronutrients—proteins, carbohydrates, and fats—are the essential nutrients that provide energy and support overall health. Proteins are crucial for muscle repair and immune function, carbohydrates fuel energy needs, and fats support brain health and hormone production. The ideal balance of these macronutrients varies depending on individual goals, activity levels, and overall health. Generally, it’s recommended that 45-65% of your total daily calories come from carbohydrates, 20-35% from fats, and 10-35% from proteins. Understanding and optimizing your macronutrient intake helps to fuel the body for daily activities and long-term well-being.</p>
-                                    <a href="macronutrients.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Macros Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Micronutrients</h2>
-                                    <p class="item-intro text-muted">Supporting Vital Functions with Micronutrients</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/micronutrients.jpg" alt="..." />
-                                    <p>Micronutrients, including vitamins and minerals, are essential for energy production, immune function, and overall well-being. While needed in smaller amounts than macronutrients, they play a crucial role in maintaining strong bones, supporting brain function, and preventing deficiencies. Found in whole foods like fruits, vegetables, nuts, and lean proteins, a well-balanced diet ensures your body gets the micronutrients it needs to thrive."</p>
-                                    <a href="micronutrients.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Micros Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Whole Foods</h2>
-                                    <p class="item-intro text-muted">Nourishing Your Body with Natural Whole Foods</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/wholefoods.jpg" alt="..." />
-                                    <p>Whole foods are nutrient-dense, minimally processed foods that provide essential vitamins, minerals, and fiber in their most natural form. Fruits, vegetables, whole grains, nuts, and lean proteins support overall health and well-being, offering a balanced source of energy and nutrition. Choosing whole foods over heavily processed options helps maintain steady energy levels, improve digestion, and promote long-term wellness.</p>
-                                    <a href="wholefoods.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Whole Foods Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Fasting</h2>
-                                    <p class="item-intro text-muted">Mastering the Timing of Fasting for Optimal Health</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/fasting.jpg" alt="..." />
-                                    <p>Fasting is a time-tested practice that allows the body to reset, promoting better digestion, improved metabolism, and enhanced cellular repair. By temporarily abstaining from food, the body shifts its focus to energy efficiency, utilizing stored fat for fuel and supporting overall health. Whether through intermittent fasting or extended fasts, incorporating fasting into a balanced lifestyle can help regulate blood sugar levels, support weight management, and improve mental clarity.</p>
-                                    <a href="fasting.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Fasting Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h2 class="text-uppercase">Meal Planning</h2>
-                                    <p class="item-intro text-muted">Building Structure with Effective Meal Planning</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/mealplanning.png" alt="..." />
-                                    <p>Meal planning provides the structure needed to make healthy eating consistent and convenient. By preparing meals in advance, you can ensure balanced nutrition, save time, and reduce the temptation of unhealthy food choices. With a little planning, you can organize your meals to meet dietary goals, control portion sizes, and streamline your grocery shopping. Incorporating meal planning into your routine helps maintain a steady flow of energy and supports long-term health goals.</p>
-                                    <a href="mealplanning.html" class="btn btn-secondary btn-xl text-uppercase">
-                                        <i class="fas fa-chevron-right me-1"></i>
-                                        Go to Meal Planning Page
-                                    </a>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-times me-1"></i>
-                                        Close
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-</html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Nutrition - Life Balance</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/nutrition.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
 
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/img/tree-svgrepo-com.svg" alt="..."
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav nav-pills text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fitness.html">Fitness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="leisure.html">Leisure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="relationships.html">Relationships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Nutrition</h2>
+          <h3 class="section-subheading text-muted">
+            Feed Your Body, Feed Your Soul
+          </h3>
+        </div>
+        <!-- Big Image Section -->
+        <section class="hero-image">
+          <img
+            src="../p0/assets/img/nutritionhome.png"
+            alt="Fitness Image"
+            class="img-fluid w-100"
+          />
+        </section>
+        <p>
+          Nutrition plays a crucial role in maintaining overall health and well-being. A balanced diet helps fuel your body, supports brain function, and strengthens your immune system. To make healthy eating a part of your daily routine, focus on consuming a variety of whole foods, such as fruits, vegetables, lean proteins, and whole grains. Aim for smaller, more frequent meals and stay hydrated. Start with simple swaps, like replacing processed snacks with healthier options, and gradually make adjustments that work for your lifestyle. Remember, good nutrition is about balance, not perfection.
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal1"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/hydration.jpeg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Hydration</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  Optimize
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 2-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal2"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/macronutrients.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Macronutrients</div>
+                <div class="portfolio-caption-subheading text-muted">Fuel</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 3-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal3"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/micronutrients.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Micronutrients</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  Support
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal4"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/wholefoods.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Whole Foods</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  Natural
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <!-- Portfolio item 5-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal5"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/fasting.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Fasting</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  Timing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Portfolio item 6-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal6"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/mealplanning.png"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Meal Planning</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  Structure
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-lg-start">
+            Copyright &copy; Andrew Orta 2025
+          </div>
+          <div class="col-lg-4 text-lg-start text-center">
+            Distributed By <a href="https://themewagon.com/">Themewagon</a>
+          </div>
+          <div class="col-lg-4 my-4 my-lg-0 text-center">
+            <a href="sitemap.html">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Hydration</h2>
+                  <p class="item-intro text-muted">
+                    Proper hydration supports nutrient absorption, enhances
+                    digestion, and helps maintain energy levels, maximizing the
+                    benefits of a balanced diet.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/hydration.jpeg"
+                    alt="..."
+                  />
+                  <p>
+                    Staying properly hydrated is essential for overall health
+                    and wellness. While the general recommendation is to drink
+                    about 8 cups (64 ounces) of water a day, individual
+                    hydration needs can vary. Men typically require about 3.7
+                    liters (125 ounces) of total water daily, while women need
+                    around 2.7 liters (91 ounces). This includes all beverages
+                    and food. Factors like physical activity, climate, and
+                    overall health can influence how much water you need.
+                    Listening to your body—such as staying mindful of thirst and
+                    urine color—can help you stay hydrated and optimize your
+                    nutrition.
+                  </p>
+                  <a
+                    href="hydration.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Hydration Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Macronutrients</h2>
+                  <p class="item-intro text-muted">
+                    Fueling Your Body with the Right Macronutrients
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/macronutrients.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Macronutrients—proteins, carbohydrates, and fats—are the
+                    essential nutrients that provide energy and support overall
+                    health. Proteins are crucial for muscle repair and immune
+                    function, carbohydrates fuel energy needs, and fats support
+                    brain health and hormone production. The ideal balance of
+                    these macronutrients varies depending on individual goals,
+                    activity levels, and overall health. Generally, it’s
+                    recommended that 45-65% of your total daily calories come
+                    from carbohydrates, 20-35% from fats, and 10-35% from
+                    proteins. Understanding and optimizing your macronutrient
+                    intake helps to fuel the body for daily activities and
+                    long-term well-being.
+                  </p>
+                  <a
+                    href="macronutrients.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Macros Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Micronutrients</h2>
+                  <p class="item-intro text-muted">
+                    Supporting Vital Functions with Micronutrients
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/micronutrients.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Micronutrients, including vitamins and minerals, are
+                    essential for energy production, immune function, and
+                    overall well-being. While needed in smaller amounts than
+                    macronutrients, they play a crucial role in maintaining
+                    strong bones, supporting brain function, and preventing
+                    deficiencies. Found in whole foods like fruits, vegetables,
+                    nuts, and lean proteins, a well-balanced diet ensures your
+                    body gets the micronutrients it needs to thrive."
+                  </p>
+                  <a
+                    href="micronutrients.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Micros Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Whole Foods</h2>
+                  <p class="item-intro text-muted">
+                    Nourishing Your Body with Natural Whole Foods
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/wholefoods.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Whole foods are nutrient-dense, minimally processed foods
+                    that provide essential vitamins, minerals, and fiber in
+                    their most natural form. Fruits, vegetables, whole grains,
+                    nuts, and lean proteins support overall health and
+                    well-being, offering a balanced source of energy and
+                    nutrition. Choosing whole foods over heavily processed
+                    options helps maintain steady energy levels, improve
+                    digestion, and promote long-term wellness.
+                  </p>
+                  <a
+                    href="wholefoods.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Whole Foods Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Fasting</h2>
+                  <p class="item-intro text-muted">
+                    Mastering the Timing of Fasting for Optimal Health
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/fasting.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Fasting is a time-tested practice that allows the body to
+                    reset, promoting better digestion, improved metabolism, and
+                    enhanced cellular repair. By temporarily abstaining from
+                    food, the body shifts its focus to energy efficiency,
+                    utilizing stored fat for fuel and supporting overall health.
+                    Whether through intermittent fasting or extended fasts,
+                    incorporating fasting into a balanced lifestyle can help
+                    regulate blood sugar levels, support weight management, and
+                    improve mental clarity.
+                  </p>
+                  <a
+                    href="fasting.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Fasting Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Meal Planning</h2>
+                  <p class="item-intro text-muted">
+                    Building Structure with Effective Meal Planning
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/mealplanning.png"
+                    alt="..."
+                  />
+                  <p>
+                    Meal planning provides the structure needed to make healthy
+                    eating consistent and convenient. By preparing meals in
+                    advance, you can ensure balanced nutrition, save time, and
+                    reduce the temptation of unhealthy food choices. With a
+                    little planning, you can organize your meals to meet dietary
+                    goals, control portion sizes, and streamline your grocery
+                    shopping. Incorporating meal planning into your routine
+                    helps maintain a steady flow of energy and supports
+                    long-term health goals.
+                  </p>
+                  <a
+                    href="mealplanning.html"
+                    class="btn btn-secondary btn-xl text-uppercase"
+                  >
+                    <i class="fas fa-chevron-right me-1"></i>
+                    Go to Meal Planning Page
+                  </a>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times me-1"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
